@@ -1,0 +1,43 @@
+.a{
+    color: var(--color-secondary);
+    text-align: -webkit-center;
+    font-family: Gafata;
+    font-size: xx-large;
+    margin-top: 5%;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+.b{
+    display: flex;
+    justify-content: center;
+}
+.c{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-primary);
+}
+.img{
+    height: 112px;
+    vertical-align: middle;
+}
+.img2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 605px;
+    width: 907px;
+    vertical-align: middle;
+}
+.bt{
+    display: inline-flex;
+    align-items: center;
+    font-family: Gafata;
+    color: white;
+    background-color: var(--color-tertiary);
+    font-size: xx-large;
+    padding: 25px 11%;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+}
+@import url('https://fonts.cdnfonts.com/css/gafata');

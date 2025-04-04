@@ -5,9 +5,13 @@ export default function Header() {
         <header className="">
             <div className="bar"></div>
             <h1 className="">
-                <p> AU AU & CIA </p>
-                <img src="/pata.png" alt="" />
-                <p> CLÍNICA VETERINÁRIA </p>
+                <div>
+                    <Link to="/" className="link">
+                        <p> AU AU & CIA </p>
+                        <img src="/pata.png" alt="" />
+                        <p> CLÍNICA VETERINÁRIA </p>
+                    </Link>
+                </div>
             </h1>
             <nav className="geist">
                 <Link to="/" >Home</Link>
